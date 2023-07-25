@@ -1,0 +1,12 @@
+class Calculator
+{
+     public static void main(String[] args)
+     {
+         int a=20,b=10,quo,rem;
+         quo=a/b;
+         System.out.println("quotient: "+quo);
+         rem=a%b;
+         System.out.println("remainder: "+rem);
+     }
+}
+   
