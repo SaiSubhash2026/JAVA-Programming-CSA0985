@@ -1,0 +1,15 @@
+import java.io.*;
+class Sum {
+  public static void main(String[] args) {
+    int a=10,b=20;
+    System.out.println("before swapping:");
+    System.out.println("First number is:"+a);
+    System.out.println("Second number is:"+b);
+    int temp=a;
+    a=b;
+    b=temp;
+    System.out.println("after swapping:");
+    System.out.println("First number is:"+a);
+    System.out.println("First number is:"+b);
+  }
+}
