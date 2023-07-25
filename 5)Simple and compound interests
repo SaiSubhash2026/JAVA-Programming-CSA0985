@@ -1,0 +1,10 @@
+class Interest
+{
+    public static void main(String[] args){
+        int P=25000,R=2,T=2,SI,CI,n=1;
+        SI=(P*T*R)/100;
+        System.out.println("simple interest: "+SI);
+        CI=P*(1+R)^T;
+        System.out.println("compound interest: "+CI);
+    }
+}
